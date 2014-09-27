@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>Famocons</title>
+<link rel="stylesheet" href="magic.min.css">
+<link rel="stylesheet" type="text/css" href="animate.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<ul id="icons">
+      <li class="famocon" data-pack="default" data-tags="badass, framework, sexy, hawt">
+        <img class="inject-me" facon-box="animated flipInX" 
+             facon-S:mouseover="animated bounceOutLeft" 
+             facon-j:mouseover="animated fadeInLeftBig" src="./dist/facons/svgs/js3.svg">
+      </li>
+      <li class="famocon" data-pack="default" data-tags="">
+        <img class="inject-me" facon-clouduparrow:mouseover.touch="animated bounceInUp"
+             facon-cloudupcloud:click="animated fadeOutUp" src="./dist/facons/svgs/cloudup/cloudup.svg">
+      </li>
+      <li class="famocon" data-pack="default" data-tags="">
+        <img class="inject-me" facon-cambtn1:click="animated flash" 
+             facon-camshutter:click="animated bounce" src="./dist/facons/svgs/camera/camera.svg">
+      </li>      
+      <li class="famocon" data-pack="default" data-tags="">
+        <img class="inject-me" facon-ham-lg-top:touch.mouseover="animated bounceInRight" 
+             facon-ham-lg-bottom:touch.mouseover="animated bounceInRight" 
+             facon-ham-lg-middle:mouseover="animated bounceInLeft" src="./dist/facons/svgs/ham-lg/ham-lg.svg">
+      </li>
+      <li class="famocon" data-pack="default" data-tags="">
+        <img class="inject-me" facon-ham-md-top:touch.mouseover="animated bounceInRight" facon-ham-md-middle:touch.mouseover="animated bounceInLeft" facon-ham-md-bottom:mouseover="animated bounceInRight" src="./dist/facons/svgs/ham-md/ham-md.svg">
+      </li>
+      <li class="famocon" data-pack="default" data-tags="">
+        <img class="inject-me" facon-ham-sm-top:touch.mouseover="animated bounceInRight" facon-ham-sm-middle:touch.mouseover="animated bounceInLeft" facon-ham-sm-bottom:mouseover="animated bounceInRight" src="./dist/facons/svgs/ham-sm/ham-sm.svg">
+      </li>
+      <li class="famocon" data-pack="default" data-tags="">
+        <img class="inject-me" facon-touch.mouseover:box="animated flipInX" facon-click:S="animated bounceOutLeft" facon-mouseenter:j="animated fadeInUp" src="./dist/facons/svgs/arrow-up/arrow-up.svg">
+      </li>
+      <li class="famocon" data-pack="default" data-tags="">
+        <img class="inject-me" facon-touch.mouseover:box="animated flipInX" facon-click:S="animated bounceOutLeft" facon-mouseenter:j="animated fadeInLeftBig" src="./dist/facons/svgs/arrow-right/arrow-right.svg">
+      </li>
+      <li class="famocon" data-pack="default" data-tags="">
+        <img class="inject-me" facon-touch.mouseover:box="animated flipInX" facon-click:S="animated bounceOutLeft" facon-mouseenter:j="animated fadeInLeftBig" src="./dist/facons/svgs/arrow-down/arrow-down.svg">
+      </li>
+      <li class="famocon" data-pack="default" data-tags="">
+        <img class="inject-me" facon-touch.mouseover:box="animated flipInX" facon-click:S="animated bounceOutLeft" facon-mouseenter:j="animated fadeInLeftBig" src="./dist/facons/svgs/arrow-left/arrow-left.svg">
+      </li>
+      <li class="famocon" data-pack="default" data-tags="">
+        <img class="inject-me" facon-touch.mouseover:box="animated flipInX" facon-click:S="animated bounceOutLeft" facon-mouseenter:j="animated fadeInLeftBig" src="./dist/facons/svgs/arrow-head-up/arrow-head-up.svg">
+      </li>
+      <li class="famocon" data-pack="default" data-tags="">
+        <img class="inject-me" facon-touch.mouseover:box="animated flipInX" facon-click:S="animated bounceOutLeft" facon-mouseenter:j="animated fadeInLeftBig" src="./dist/facons/svgs/arrow-head-right/arrow-head-right.svg">
+      </li>
+      <li class="famocon" data-pack="default" data-tags="">
+        <img class="inject-me" facon-touch.mouseover:box="animated flipInX" facon-click:S="animated bounceOutLeft" facon-mouseenter:j="animated fadeInLeftBig" src="./dist/facons/svgs/arrow-head-down/arrow-head-down.svg">
+      </li>
+      <li class="famocon" data-pack="default" data-tags="">
+        <img class="inject-me" facon-touch:mouseover-box="animated flipInX" facon-click-S="animated bounceOutLeft" facon-mouseenter:j="animated fadeInLeftBig" src="./dist/facons/svgs/arrow-head-left/arrow-head-left.svg">
+      </li>
+</ul>
+<script src="svg-injector.js"></script>
+<script src="classifySVGs.js"></script>
+<!-- <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+<script>
+  // Elements to inject
+  var mySVGsToInject = document.querySelectorAll('img.inject-me');
+  // Do the injection
+  SVGInjector(mySVGsToInject);
+</script>
+</body>
+</html>

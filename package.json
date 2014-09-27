@@ -1,0 +1,20 @@
+{
+  "name": "Famocons",
+  "version": "0.0.1",
+  "description": "A package that supports the creation of a rich, fully customizable, granularly animatable, optimized,  responsive SVG icon library with graceful fallback support for older browsers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Creative Commons",
+  "devDependencies": {
+    "gulp": "^3.8.8"
+  },
+  "dependencies": {
+    "gulp-raster": "^0.1.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-svgmin": "git://github.com/jabbrass/gulp-svgmin/",
+    "gulp-svgstore": "^1.0.1"
+  }
+}

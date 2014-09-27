@@ -1,6 +1,8 @@
 Easicon
 =======
 
+<a href="http://en.bloggif.com/" title="Photo Editing"><img src="http://data.bloggif.com/distant/user/store/0/2/f/e/320b60d923e921cf52d0ef98a921ef20.gif" alt="Mounting created Bloggif" width="400" height="411" /></a>
+
 A 100% theme-able, 100% animate-able SVG vector icon library.
 Please star me!
 

@@ -34,6 +34,19 @@
   fill: darkred;
 }*/
 
+g.famous-logo path:hover {
+  fill: black;
+  stroke-width: 4;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 
 
 ul {
@@ -85,7 +98,7 @@ li {
   100% {-webkit-transform:translate(0, 98) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);}
 }
 
-svg.inject-me {
+.inject-me {
 width: 50px;
 height: 50px;
 }

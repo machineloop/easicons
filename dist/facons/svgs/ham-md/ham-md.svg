@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-77 51 128 128" enable-background="new -77 51 128 128">
+    <g class="ham-md-bottom">
+        <path d="M5,135h-36c-1.104,0-2-0.896-2-2s0.896-2,2-2H5c1.104,0,2,0.896,2,2S6.104,135,5,135z"/>
+    </g>
+    <g class="ham-md-middle">
+        <path d="M5,117h-36c-1.104,0-2-0.896-2-2s0.896-2,2-2H5c1.104,0,2,0.896,2,2S6.104,117,5,117z"/>
+    </g>
+    <g class="ham-md-top">
+        <path d="M5,99h-36c-1.104,0-2-0.896-2-2s0.896-2,2-2H5c1.104,0,2,0.896,2,2S6.104,99,5,99z"/>
+    </g>
+</svg>

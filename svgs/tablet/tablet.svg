@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve">
+<g id="tablet-outline">
+	<g>
+		<path d="M105.714,0.743H21.607c-4.265,0-7.734,3.47-7.734,7.734v110.868c0,4.266,3.47,7.735,7.734,7.735h84.107
+			c4.266,0,7.735-3.47,7.735-7.735V8.478C113.449,4.213,109.979,0.743,105.714,0.743z M105.626,8.566v110.692H21.695V8.566H105.626z
+			"/>
+	</g>
+</g>
+<g id="tablet-inline">
+	<g>
+		<path d="M98.068,12.212H29.253c-2.157,0-3.911,1.754-3.911,3.911v87.93c0,2.157,1.754,3.912,3.911,3.912h68.815
+			c2.156,0,3.911-1.755,3.911-3.912v-87.93C101.979,13.967,100.225,12.212,98.068,12.212z M33.165,100.143V20.035h60.992v80.107
+			H33.165z"/>
+	</g>
+</g>
+<g id="tablet-home">
+	<circle style="stroke:#000000;stroke-width:2;stroke-miterlimit:10;" cx="65.565" cy="113.555" r="3.9"/>
+</g>
+</svg>

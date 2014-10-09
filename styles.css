@@ -34,6 +34,12 @@
   fill: darkred;
 }*/
 
+.easicons { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 g.famous-logo path:hover {
   fill: black;
   stroke-width: 4;

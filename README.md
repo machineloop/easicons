@@ -1,4 +1,4 @@
-Easicon
+Easicons
 =======
 A 100% theme-able, 100% animate-able SVG vector icon library.
 Please star me!
@@ -26,7 +26,7 @@ Add these CSS references at the top of your index file or take a look at the exa
 
 Add an image tag as follows. Make sure to include 'inject-me' as a class on the image. This exact snippet should load the JS icon out of the correct directory.
 ```html
-<img class="inject-me" facon-box="animated flipInX" facon-S:mouseover="animated bounceOutLeft" facon-j:mouseover="animated fadeInLeftBig" src="./dist/facons/svgs/js3.svg">
+<img class="inject-me" easi-box="animated flipInX" easi-S:mouseover="animated bounceOutLeft" easi-j:mouseover="animated fadeInLeftBig" src="./dist/easicons/svgs/js3.svg">
 ```
 
 Add the following script references at the bottom of your index page to bootstrap the svg files and add the animation event listeners.

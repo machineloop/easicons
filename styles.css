@@ -47,9 +47,11 @@
 
 .rotateY {
   -webkit-animation: rotateb 5s infinite linear;
+  -webkit-transform-origin: 50% 50%;
 }
 
 @-webkit-keyframes rotateb {
+  -webkit-transform-origin: 50% 50%;
   from { -webkit-transform: rotateY(0); }
   to   { -webkit-transform: rotateY(360deg); }
 }

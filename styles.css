@@ -34,10 +34,15 @@
   fill: darkred;
 }*/
 
+
 .easicons { 
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.center {
+  text-align: center;
 }
 
 g.famous-logo path:hover {

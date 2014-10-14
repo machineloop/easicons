@@ -49,6 +49,11 @@
   -webkit-animation: rotateb 5s infinite linear;
 }
 
+@-webkit-keyframes rotateb {
+  from { -webkit-transform: rotateY(0); }
+  to   { -webkit-transform: rotateY(360deg); }
+}
+
 g.famous-logo path:hover {
   fill: black;
   stroke-width: 4;

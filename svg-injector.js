@@ -264,7 +264,7 @@
       });
       if (imgData.length < 1) {
         imgData = [].filter.call(el.attributes, function (at) {
-          return (/^easi-\w[\w\.\w\:\w\-]*$/).test(at.name);
+          return (/^facon-\w[\w\.\w\:\w\-]*$/).test(at.name);
         });
       }
       forEach.call(imgData, function (dataAttr) {

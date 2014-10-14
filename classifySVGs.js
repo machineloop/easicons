@@ -9,9 +9,9 @@
       svgClassMap = {};
       // Find attributes on each svg to parse custom attribute values
       for (var i = 0; i < attrs.length; i++) {
-        // Look for attributes that match 'data-easi-'
+        // Look for attributes that match 'data-facon-'
         if (attrs[i].nodeName.length > 5) {
-          if (attrs[i].nodeName.substr(0,11) === 'data-easi-') {
+          if (attrs[i].nodeName.substr(0,11) === 'data-facon-') {
             // Parse out classes and events contained in the SVG data attributes
             var eventsAndClass = attrs[i].nodeName.substr(11).split(':');
             if (eventsAndClass.length > 2) { console.log("You added too many dashes between the events and svg class you want to apply them to.") };
@@ -20,7 +20,7 @@
             // Add array of [attribute values, events, and a reference to the node]
             svgClassMap[svgClass] = [attrs[i].value, svgEvents, attrs[i]];
           }
-          if (attrs[i].nodeName.substr(0,6) === 'easi-') {
+          if (attrs[i].nodeName.substr(0,6) === 'facon-') {
             var eventsAndClass = attrs[i].nodeName.substr(6).split(':');
             if (eventsAndClass.length > 2) { console.log("You added too many dashes between the events and svg class you want to apply them to.") };
             var svgClass = eventsAndClass[0]; 

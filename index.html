@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head id="inject-styles">
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <title>Easicons</title>
 <link rel="stylesheet" href="magic.min.css">
@@ -14,7 +14,7 @@
   allowtransparency="true" frameborder="0" scrolling="0" width="85" height="20"></iframe>
 <iframe src="http://ghbtns.com/github-btn.html?user=jabbrass&type=follow&count=true"
   allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe>
-<p> A 100% theme-able, 100% animate-able SVG vector icon library. </p>
+<p> A 100% <a onclick="addStyles();">theme</a>-able, 100% animate-able SVG vector icon library. </p>
 </div>
 <ul id="icons">
       <li class="famocon" data-pack="default" data-tags="">
@@ -29,8 +29,8 @@
              facon-cloudupcloud:click="animated fadeOutUp" src="./dist/facons/svgs/cloudup/cloudup.svg">
       </li>
       <li class="famocon" data-pack="default" data-tags="">
-        <img class="inject-me" facon-cambtn1:click="animated flash" 
-             facon-camshutter:click="animated bounce" src="./dist/facons/svgs/camera/camera.svg">
+        <img class="inject-me" facon-cambtn1:mouseover="animated flash" 
+             facon-camshutter:mouseover="animated bounce" src="./dist/facons/svgs/camera/camera.svg">
       </li>      
       <li class="famocon" data-pack="default" data-tags="">
         <img class="inject-me" facon-ham-lg-top:touch.mouseover="animated bounceInRight" 
@@ -273,6 +273,10 @@
   var mySVGsToInject = document.querySelectorAll('img.inject-me');
   // Do the injection
   SVGInjector(mySVGsToInject);
+
+  function addStyles() {
+    document.getElementById('inject-styles').innerHTML += '<link rel="stylesheet" type="text/css" href="theme.css"></link>'
+  }
 </script>
 </body>
 </html>

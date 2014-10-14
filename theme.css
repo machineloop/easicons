@@ -1,0 +1,56 @@
+.box {
+  fill: darkred;
+}
+
+.s-outlined {
+  display: none;
+}
+
+.j, .s, .e, .a, .i, .c, .o, .n, .s_01 {
+  fill: goldenrod;
+  stroke-width: 0.25;
+  stroke: darkred;
+}
+
+.cloudupdimple, .clouduparrow {
+  fill: cadetblue;
+}
+
+.cloudupoutline {
+  fill: lightblue;
+}
+
+.cambody {
+  fill: darkred;
+}
+
+.ham-lg-middle, .ham-md-middle, .ham-sm-middle {
+  fill: darkred;
+}
+
+.arrow-up-tail, .arrow-down-tail {
+  fill: darkred;
+  stroke-width: 4;
+  stroke: goldenrod;
+}
+
+circle {
+  fill: darkred;
+}
+
+.arrow-left-tail, .arrow-right-tail, .arrow-left-head, .arrow-right-head, .arrow-head-up, .arrow-head-down, .circle-arrow, .circle-minus-circle,
+.circle-arrow-top, .circle-arrow-bottom, .present-screen, .pin-circle-pin {
+  fill: darkred;
+}
+
+.arrow-head-left, .arrow-up-head, .arrow-down-head, .arrow-head-right, .circle-plus, .circle-minus-minus {
+  fill: darkred;
+  stroke-width: 4;
+  stroke: goldenrod;
+}
+
+.chevron-up, .chevron-down, .chevron-left, .chevron-right {
+  fill: goldenrod;
+  stroke-width: 4;
+  stroke: darkred;
+}
